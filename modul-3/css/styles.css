@@ -3,53 +3,84 @@
             padding: 0;
             margin-left: 20px;
             margin-right: 20px;
+            display: block;
+            font-size: 12;
         }
         
         #TheTop {
-            padding-bottom: 32.9px;
-        }
-        
-        h2 {
+            margin-bottom: 32.9px;
             color: #263555;
-            padding: 27px;
-            padding-bottom: 0px;
         }
         
-        h4 {
-            color: #263555;
-            padding: 27px;
-            padding-left: 0px;
-            padding-bottom: 0px;
-        }
-        
-        p {
-            padding-top: 16px;
+        .first>p {
+            margin-top: 16px;
         }
         
         .first {
-            margin-top: 40px;
+            padding-top: 40px;
+        }
+        
+        .first>h2 {
+            color: #263555;
+            margin-top: 27px;
+        }
+        
+        .first>b {
+            color: #263555;
+            margin-top: 27px;
+            font-size: 14;
+        }
+        
+        .second>b {
+            color: #263555;
+            margin-top: 27px;
+            font-size: 14;
+        }
+        
+        .second>h2 {
+            color: #263555;
+            margin-top: 27px;
+        }
+        
+        .second>ol>li>p {
+            margin-top: 16px;
+        }
+        
+        .second>ol>li {
+            margin-top: 27px;
+        }
+        
+        .second>ol>li>b {
+            color: #263555;
+            margin-top: 27px;
+            font-size: 14;
         }
         
         .third {
-            margin-bottom: 49px
+            padding-bottom: 40px
         }
         
-        ul {
-            display: inline;
+        .third>ul>li {
+            display: inline-block;
         }
-        /*
-        .box2 {
-            background: #fc0;
-            /* Цвет фона
-            width: 300px;
-            /* Ширина блока
-            padding: 10px;
-            /* Поля
-            margin-top: 10px;
-            /* Отступ сверху
-            border: 2px solid #000;
-            /* Параметры рамки
-            -moz-box-sizing: border-box;
-            /* Для Firefox
-            box-sizing: border-box;
-            /* Ширина блока с полями/}
+        
+        .third>ul>li>b {
+            color: #263555;
+            margin-top: 27px;
+            font-size: 14;
+        }
+        
+        .third>b {
+            color: #263555;
+            margin-top: 27px;
+            font-size: 14;
+        }
+        
+        .third>p {
+            margin-top: 16px;
+        }
+        
+        .third>h2 {
+            margin-top: 27px;
+            color: #263555;
+        }
