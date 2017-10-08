@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    /* text-align: center; */
+    counter-reset: reset;
+    box-sizing: border-box;
+    padding: 0;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+.li {
+    margin-top: 6px;
+    margin-left: 6px;
+    list-style: none;
+    background-color: #293132;
+    border-radius: 6px;
+    color: #50D8D7;
+    padding-left: 8px;
+    width: 180px;
+    box-shadow: 0 0 10px rgba(39, 64, 96, 0.8);
+    /* display: inline-block; 
+    */
+}
+
+.li:first-child {
+    margin-top: 0px;
+}
+
+.box {
+    counter-reset: Numbers;
+}
+
+.li::before {
+    display: inline-block;
+    counter-increment: Numbers;
+    content: counter(Numbers);
+    padding: 10px 15px;
+    border-radius: 6px;
+    background-color: #474044;
+    color: #547AA5;
+    margin-right: 12px;
+    box-shadow: 0 0 10px rgba(23, 127, 255, 0.8);
+}
+
+.li:hover::before {
+    background-color: #1B2845;
+    color: #65AFFF;
+    box-shadow: 0 0 10px rgba(18, 8, 61, 0.8);
+}
