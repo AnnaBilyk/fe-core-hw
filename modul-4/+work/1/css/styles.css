@@ -17,7 +17,6 @@
     display: inline-block;
     padding: 10px;
     background-color: #210124;
-    color: #E5FCF5;
     margin-right: 10px;
     border: 1px hidden black;
     border-radius: 8px;
@@ -27,7 +26,20 @@
     margin-right: 0px;
 }
 
-.li:hover {
-    background-color: #E5FCF5;
+a:hover {
     color: #210124;
 }
+
+li:hover {
+    background-color: #E5FCF5;
+}
+
+.a {
+    color: #E5FCF5;
+    text-decoration: none;
+}
+
+
+/* .a:hover {
+    color: #210124;
+} */
