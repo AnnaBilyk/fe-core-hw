@@ -13,6 +13,11 @@
     background-color: #B3DEC1;
 }
 
+.a {
+    color: #E5FCF5;
+    text-decoration: none;
+}
+
 .li {
     display: inline-block;
     padding: 10px;
@@ -34,7 +39,4 @@ li:hover {
     background-color: #E5FCF5;
 }
 
-.a {
-    color: #E5FCF5;
-    text-decoration: none;
-}
+
