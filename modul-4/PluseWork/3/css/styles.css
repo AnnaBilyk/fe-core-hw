@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    font-family: cursive, Helvetica, sans-serif;
+    font-size: 28px;
+}
+
+.li {
+    list-style-type: none;
+}
+
+.li::before {
+    content: "\2192";
+    margin-right: 5px;
+}

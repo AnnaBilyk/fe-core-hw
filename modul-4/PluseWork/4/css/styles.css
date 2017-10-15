@@ -1,0 +1,43 @@
+    * {
+        margin: 0;
+        font-size: 20px;
+        font-family: cursive;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    .li {
+        margin-top: 0;
+    }
+    
+    #art1:target {
+        color: red;
+    }
+    
+    #art2:target {
+        color: red;
+    }
+    
+    #art3:target {
+        color: red;
+    }
+    
+    #art4:target {
+        color: red;
+    }
+    
+    #art5:target {
+        color: red;
+    }
+    
+    .a {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 700px;
+        color: darkred;
+        display: block;
+    }
+    
+    .a:last-child {
+        margin-bottom: 0px;
+    }
