@@ -7,33 +7,35 @@
        font-size: 13px;
        vertical-align: top;
        color: #4e5050;
+       text-align: left;
    }
    
-   #bg {
-       size: cover;
-       position: absolute;
-       size: 100% 100%;
-       display: block;
+   body {
+       background: url(../img/bg.png);
+       width: 1920px;
+       height: 1795px;
    }
    
-   #body {
+   #scin {
+       margin-top: 249px;
+       margin-left: 448px;
+       margin-right: 448px;
+       margin-bottom: 249px;
+       /* position: absolute; */
        display: inline-block;
-       position: absolute;
-       margin-left: 488px;
-       margin-right: 488px;
-       margin-top: 230px;
-       margin-bottom: 268px;
        background-color: rgb(255, 255, 255);
        height: 1297px;
        width: 1024px;
+       padding-left: 60px;
+       padding-right: 60px;
+       padding-top: 117px;
+       padding-bottom: 78px;
    }
    
    #BlText {
        display: inline-block;
-       margin-left: 60px;
-       width: 647px;
+       width: 646px;
        margin-bottom: 0;
-       margin-top: 117px;
    }
    
    .h1 {
@@ -57,7 +59,7 @@
    }
    
    .p {
-       margin-bottom: 11px;
+       margin-bottom: 10px;
        font-family: 'Arial Regular';
    }
    
@@ -72,7 +74,6 @@
    #hr {
        margin-top: 50px;
        margin-bottom: 60px;
-       margin-left: 60px;
        width: 902px;
        color: #dedbdb;
        display: inline-block;
@@ -84,7 +85,6 @@
    }
    
    #BlList {
-       margin-top: 117px;
        display: inline-block;
        margin-left: 46px;
        width: 210px;
@@ -107,7 +107,7 @@
    
    .li>.b::before {
        content: '';
-       padding: 13px;
+       padding: 12px;
        padding-top: 7px;
        padding-bottom: 7px;
        background-color: #38afe5;
@@ -118,32 +118,35 @@
        margin-right: 10px;
    }
    
+   .li>.b {
+       margin-bottom: 0;
+   }
+   
    .li>.p {
-       margin: 0;
-       margin-top: 15px;
-       width: 174px;
-       margin-left: 44px;
+       margin-bottom: 0;
+       margin-top: 6px;
+       width: 168px;
+       margin-left: 42px;
    }
    
    #BlText2 {
        display: inline-block;
-       margin-left: 60px;
-       width: 647px;
-       /* height: 1136px; */
+       width: 646px;
    }
    
-   #sp9 {
+   .sp9 {
        display: inline-block;
-       margin-top: 10px;
+       margin-top: 20px;
        margin-left: 0;
    }
    
-   #sp9>.b {
+   .sp9>.b {
        color: #263555;
        font-size: 15px;
+       margin: 0;
    }
    
-   #sp9>.b::before {
+   .sp9>.b::before {
        content: "\2192";
        margin-right: 5px;
        color: #38afe5;
@@ -152,8 +155,7 @@
    #BlList2 {
        display: inline-block;
        margin-left: 46px;
-       width: 215px;
-       /* height: 1136px; */
+       width: 210px;
    }
    
    #Cooltxt {
@@ -161,11 +163,11 @@
        margin-bottom: 37px;
        padding: 25px;
        padding-top: 20px;
-       padding-bottom: 10px;
+       padding-bottom: 20px;
        border: 1px solid #dedbdb;
        border-radius: 3px;
        background-color: #fcfafa;
-       width: 216px;
+       width: 210px;
        margin-right: 0;
    }
    
