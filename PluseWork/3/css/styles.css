@@ -1,0 +1,84 @@
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        
+        body {
+            background: url(../img/bg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .wrapper {
+            text-align: center;
+            background-color: #fff;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            margin-top: 40px;
+            margin-bottom: auto;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+            width: 680px;
+            height: 520px;
+            position: relative;
+        }
+        
+        .img {
+            padding: 20px;
+        }
+        
+        .arrow {
+            position: absolute;
+            display: inline-block;
+            bottom: -2%;
+            left: 10%;
+            transform: translate( -50%, -50%);
+        }
+        
+        .arrow>a {
+            text-decoration: none;
+            width: 28px;
+            text-align: center;
+        }
+        
+        #link-left::before {
+            float: left;
+            width: 10px;
+            content: '\2190';
+            color: white;
+            padding: 30px 15px;
+            background-color: rgba(56, 175, 229, 0.5);
+            border-top-left-radius: 50px;
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 0px;
+            border-bottom-left-radius: 50px;
+            box-shadow: 1px 1px 0.5px rgba(0, 0, 0, 0.5);
+        }
+        
+        #link-right::before {
+            float: left;
+            content: '\2192';
+            width: 10px;
+            color: white;
+            padding: 30px 15px;
+            background-color: rgba(56, 175, 229, 0.5);
+            border-top-left-radius: 0px;
+            border-top-right-radius: 50px;
+            border-bottom-right-radius: 50px;
+            border-bottom-left-radius: 0px;
+            box-shadow: 1px 1px 0.5px rgba(0, 0, 0, 0.5);
+        }
+        
+        #link-left:hover::before {
+            color: #38afe5;
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+        
+        #link-right:hover::before {
+            color: #38afe5;
+            background-color: rgba(255, 255, 255, 0.9);
+        }
