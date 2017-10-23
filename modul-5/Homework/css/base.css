@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 58px 60px;
+    background: white;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+#to-top::before {
+    content: '\21D1';
+    padding: 10px 15px;
+    background-color: #38afe5;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 85px;
+    color: #fff;
+    transform: translateX(915px);
+}
+
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+figure {
+    display: inline-block;
+}

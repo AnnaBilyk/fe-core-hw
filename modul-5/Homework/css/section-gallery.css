@@ -1,0 +1,79 @@
+.top-title {
+    margin-bottom: 48px;
+    font-family: Pathway Gothic One;
+    color: #263555;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.gallery-item {
+    padding: 0;
+    margin: 0;
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+    height: 100%;
+    width: 32%;
+    margin-right: 2%;
+}
+
+.gallery-item:last-child {
+    margin: 0;
+}
+
+.title {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: Open Sans Condensed;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.article-text {
+    font-family: Arial Regular;
+    font-size: 10px;
+    color: #fff;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.aside {
+    top: 0;
+    background-color: #263555;
+    width: 50%;
+    position: absolute;
+    padding-left: 8px;
+    padding-right: 8px;
+    display: none;
+    height: 274px;
+    text-align: center;
+}
+
+.gallery {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+}
+
+.section-gallery {
+    margin-bottom: 50px;
+}
+
+.gallery-item:hover>.aside {
+    display: block;
+    box-shadow: 3px 0 1px #263555;
+}
+
+.gallery-img {
+    width: 290px;
+    height: 274px;
+}
+
+button {
+    border-radius: 3px;
+    padding: 1px 3px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}

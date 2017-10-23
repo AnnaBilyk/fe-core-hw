@@ -1,0 +1,77 @@
+.slider {
+    position: relative;
+    margin-bottom: 56px;
+}
+
+.arrow {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+
+.link {
+    float: left;
+    width: 40px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    background-color: rgba(56, 175, 229, 0.7);
+    color: white;
+    font-size: 24px;
+}
+
+.link:hover {
+    background-color: #38afe5;
+    color: white;
+}
+
+.left {
+    border-radius: 100% 0 0 100% / 50% 0 0 50%;
+}
+
+.left::before {
+    content: "\2190";
+}
+
+.right {
+    border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+}
+
+.right::before {
+    content: "\2192";
+}
+
+.text {
+    font-family: Pathway Gothic One;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+.small {
+    font-size: 24px;
+    background-color: #fff;
+    color: #263555;
+    padding: 20px 16px;
+    top: 218px;
+    border-left: 1px solid #eeedeb;
+}
+
+.big {
+    font-size: 36px;
+    background-color: #38afe5;
+    color: #fff;
+    padding: 16px 14px;
+    top: 286px;
+}
+
+.text:hover {
+    transition: all 0.3s ease-out;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 2px 0px 5px rgba(116, 116, 116, 0.5);
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+}
