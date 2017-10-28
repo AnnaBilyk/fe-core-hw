@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.wrapper {
+    width: 1024px;
+    padding: 120px 60px;
+    background-color: #fff;
+    margin: auto;
+}
+
+.img {
+    justify-content: space-between;
+    flex-flow: column wrap;
+    flex-wrap: wrap;
+    filter: brightness(50%)
+}
+
+.img:hover {
+    filter: brightness(100%)
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #263555;
+    margin-bottom: 50px;
+    font-family: Pathway Gothic One;
+    font-size: 32px;
+}

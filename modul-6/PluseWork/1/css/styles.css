@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkseagreen;
+    display: flex;
+}
+
+a {
+    text-decoration: none
+}
+
+.one {
+    background-image: url(../img/linkimg1.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.two {
+    background-image: url(../img/linkimg2.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.three {
+    background-image: url(../img/linkimg3.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.four {
+    background-image: url(../img/linkimg4.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sprite:hover {
+    filter: invert(100%);
+}
