@@ -58,6 +58,7 @@ a {
 }
 
 .list-item::before {
+    align-self: center;
     content: '\2192';
     margin-right: 10px;
     color: #41b3e6;
