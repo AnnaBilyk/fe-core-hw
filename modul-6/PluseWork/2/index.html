@@ -1,31 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-<head>
-    <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
+body {
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
 
-<body>
-    <main class="wrapper">
-        <div class="gallery-body"></div>
-        <h2 class="title">
-            Our Gallery
-        </h2>
-        <img src="img/gallery1.jpg" alt="another_img1" class="img">
-        <img src="img/gallery2.jpg" alt="another_img2" class="img">
-        <img src="img/gallery3.jpg" alt="another_img3" class="img">
-        <img src="img/gallery4.jpg" alt="another_img4" class="img">
-        <img src="img/gallery5.jpg" alt="another_img5" class="img">
-        <img src="img/gallery6.jpg" alt="another_img6" class="img">
-        <img src="img/gallery7.jpg" alt="another_img7" class="img">
-        <img src="img/gallery8.jpg" alt="another_img8" class="img">
-        <img src="img/gallery9.jpg" alt="another_img9" class="img">
-    </main>
-</body>
+.wrapper {
+    width: 1024px;
+    padding: 120px 60px;
+    background-color: #fff;
+    margin: auto;
+}
 
-</html>
+.gallery-body {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column wrap;
+    flex-wrap: wrap;
+}
+
+.img {
+    filter: brightness(50%)
+}
+
+.img:hover {
+    filter: brightness(100%)
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #263555;
+    margin-bottom: 50px;
+    font-family: Pathway Gothic One;
+    font-size: 32px;
+}
