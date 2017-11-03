@@ -1,0 +1,110 @@
+.title {
+    text-transform: uppercase;
+    color: #263555;
+    margin-bottom: 25px;
+    font-family: Pathway Gothic One;
+    font-size: 32px;
+}
+
+.section {
+    margin-bottom: 50px;
+}
+
+.section.two {
+    margin-bottom: 0;
+}
+
+.section .list {
+    list-style: none;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: #263555;
+    font-family: Arial;
+    font-size: 14px;
+    display: block;
+}
+
+.list-item {
+    margin-top: 14px;
+    display: flex;
+}
+
+.list-item:first-child {
+    margin: 0;
+}
+
+.list-item::before {
+    align-self: center;
+    content: '\2192';
+    margin-right: 15px;
+    color: #41b3e6;
+    display: inline-block;
+}
+
+.fullTwo {
+    width: 198px;
+}
+
+.fullOne {
+    width: 652px;
+    margin-right: 50px;
+}
+
+.comment {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    margin: 19px;
+    margin-top: 0;
+    margin-left: 0;
+    float: left;
+}
+
+.head {
+    margin-bottom: 19px;
+}
+
+.text {
+    font-size: 11px;
+    font-family: Arial;
+    color: #4e5050;
+}
+
+.hight {
+    font-size: 13px;
+    color: #263555;
+    margin-bottom: 20px;
+}
+
+.post-title {
+    color: #263555;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+.first-txt {
+    margin-bottom: 34px;
+}
+
+.second-txt {
+    margin-bottom: 22px;
+}
+
+button {
+    border-radius: 1px;
+}
+
+.pTwo {
+    margin-top: 28px;
+}
+
+.clearfix::after {
+    display: block;
+    content: '';
+    clear: both;
+}

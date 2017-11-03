@@ -1,0 +1,43 @@
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background: url(../img/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: Arial;
+        padding-bottom: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #wrapper {
+        margin-top: 40px;
+        background-color: #fff;
+        width: 1024px;
+        padding: 60px;
+        padding-top: 117px;
+        padding-bottom: 78px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    
+    hr {
+        width: 672px;
+        margin-top: 48px;
+    }
+    
+    #to-top::before {
+        position: fixed;
+        content: '\21D1';
+        padding: 10px 15px;
+        background-color: #38afe5;
+        border-radius: 50%;
+        color: #fff;
+        left: 80%;
+        bottom: 320px;
+    }

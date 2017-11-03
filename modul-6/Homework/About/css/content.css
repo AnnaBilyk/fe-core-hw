@@ -1,0 +1,180 @@
+#ArticleOne {
+    vertical-align: top;
+    width: 642px;
+    margin-bottom: 0;
+}
+
+.h {
+    color: #263555;
+    text-transform: uppercase;
+    font-size: 32px;
+    margin-bottom: 48px;
+    font-family: 'Pathway Gothic One';
+}
+
+#pic {
+    float: left;
+    margin: 24px;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 17px;
+}
+
+.p {
+    font-size: 13px;
+    color: #4e5050;
+    margin-bottom: 10px;
+}
+
+.b {
+    font-style: normal;
+    color: #263555;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    width: 904px;
+    color: #dedbdb;
+    display: inline-block;
+}
+
+#ListOne {
+    vertical-align: top;
+    margin-left: 46px;
+    width: 210px;
+}
+
+.OlList {
+    list-style: none;
+    counter-reset: Numbers;
+    margin-left: 0;
+    width: 210px;
+}
+
+.div {
+    display: inline-block;
+    width: 168px;
+}
+
+.listIntem {
+    margin-top: 20px;
+}
+
+.listIntem:first-child {
+    margin-top: 0px;
+}
+
+.div>.b {
+    margin-top: 4px;
+}
+
+.listIntem::before {
+    float: left;
+    padding: 4px 8px;
+    background-color: #38afe5;
+    color: #ffffff;
+    counter-increment: Numbers;
+    content: counter(Numbers);
+    border-radius: 50%;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.listIntem>.p {
+    width: calc(100% - 17px);
+    margin-bottom: 0;
+    margin-top: 6px;
+    /* width: 168px; */
+    margin-left: 42px;
+}
+
+#ArticleTwo {
+    display: inline-block;
+    width: 642px;
+}
+
+.listIntemUl {
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 0;
+    color: #263555;
+    font-size: 15px;
+    width: 300px;
+}
+
+.listIntemUl::before {
+    content: "\2192";
+    margin-right: 5px;
+    color: #38afe5;
+}
+
+#UlList {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+}
+
+#ListTwo {
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 46px;
+    width: 210px;
+}
+
+#MinArticle {
+    margin-top: 0;
+    margin-bottom: 37px;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #dedbdb;
+    border-radius: 3px;
+    background-color: #fcfafa;
+    width: 210px;
+    margin-right: 0;
+}
+
+#MinArticle>.b::before {
+    content: '\00AB';
+    color: #263555;
+}
+
+#MinArticle>.b::after {
+    content: '\00BB';
+    color: #263555;
+}
+
+#MinArticle>.b {
+    margin: 0;
+}
+
+#bCenter {
+    margin: 0;
+}
+
+#pCenter {
+    margin: 0;
+    margin-top: 13px;
+}
+
+#ArticleTwo>h1 {
+    margin-bottom: 66px;
+}
+
+#ListTwo>h1 {
+    margin-bottom: 23px;
+}
+
+.Center {
+    text-align: center;
+}
+
+.clearfix::after {
+    display: block;
+    content: '';
+    clear: both;
+}

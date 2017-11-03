@@ -1,0 +1,43 @@
+.gallery-body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    content: url(../img/zoom-icon.png);
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate( -50%, -50%);
+}
+
+figure {
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+figure:nth-child(n+7) {
+    margin: 0;
+}
+
+figure:hover figcaption {
+    display: flex;
+}
+
+figure:hover .img {
+    filter: brightness(50%);
+}
+
+.title {
+    text-transform: uppercase;
+    color: #263555;
+    margin-bottom: 50px;
+    font-family: 'Pathway Gothic One';
+    font-size: 32px;
+}
