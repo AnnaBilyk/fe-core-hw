@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darksalmon;
+    display: flex;
+    justify-content: center;
+    font-family: Arial;
+}
+
+.wrapper {
+    margin: 1rem 0 1rem 0;
+    background-color: white;
+    padding: 1rem;
+    width: 50%;
+}
+
+td {
+    width: 10rem;
+    height: 1.3rem;
+}
+
+.table-first {
+    margin-bottom: 2rem;
+}
+
+caption {
+    text-align: left;
+}
+
+.caption-last {
+    margin-bottom: 1rem;
+}
+
+th {
+    margin-bottom: 0.8rem;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.mail {
+    color: red;
+}
