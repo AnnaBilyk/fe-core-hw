@@ -1,0 +1,43 @@
+.title {
+    font-family: 'Pathway Gothic One';
+    text-transform: uppercase;
+    color: #263555;
+    margin-bottom: 2rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.small-text {
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+    font-family: Arial;
+    color: #414141;
+}
+
+.list {
+    margin-bottom: 1rem;
+    padding: 0.3rem 1.5rem 0.3rem 0.3rem;
+    cursor: pointer;
+    color: #414141;
+    -webkit-appearance: none;
+    background-image: url(../icon/down-arrow.svg);
+    background-image: #263555;
+    background-repeat: no-repeat;
+    background-size: 0.8rem;
+    background-position: 95% 50%;
+}
+
+.link {
+    font-size: 0.75rem;
+    text-decoration: none;
+    color: #38afe5;
+    font-family: Arial;
+    margin-bottom: 0.5rem;
+}
+
+.two {
+    margin-top: 2rem;
+}

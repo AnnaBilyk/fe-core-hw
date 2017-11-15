@@ -1,0 +1,81 @@
+footer {
+    background-color: #263555;
+    color: #fff;
+    width: 64rem;
+    padding: 2.75rem 9.625rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: 'Open Sans Condensed';
+    min-height: 12.5rem;
+}
+
+.footer-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 29.875rem;
+}
+
+.footer-list-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-link {
+    color: #fff;
+}
+
+.one-s {
+    background-image: url(../icon/twitter.png);
+    width: 3.125rem;
+    height: 3.125rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.two-s {
+    background-image: url(../icon/facebook.png);
+    width: 3.125rem;
+    height: 3.125rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.three-s {
+    background-image: url(../icon/google.png);
+    width: 3.125rem;
+    height: 3.125rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.four-s {
+    background-image: url(../icon/linkin.png);
+    width: 3.125rem;
+    height: 3.125rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sprite {
+    margin-left: 0.75rem;
+    filter: opacity(40%);
+    transition-duration: 1s;
+}
+
+.sprite:hover {
+    filter: opacity(100%);
+    transition-duration: 1s;
+}
+
+.sprite:first-child {
+    margin-left: 0;
+}
+
+.link-icon {
+    display: flex;
+    width: 64rem;
+    justify-content: center;
+    margin-top: 1.625rem;
+}

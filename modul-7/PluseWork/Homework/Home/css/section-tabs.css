@@ -1,0 +1,150 @@
+     .select-item {
+         color: #6b7488;
+         font-family: 'Pathway Gothic One';
+         font-size: 22px;
+         padding: 8px 32px;
+         background-color: #fcfafa;
+         border-bottom: 0;
+         border: 2px solid #eeedeb;
+         width: 180px;
+         border-bottom: 0;
+         text-align: center;
+         text-transform: uppercase;
+     }
+     
+     .select-info {
+         list-style: none;
+         display: flex;
+     }
+     
+     .select-item:hover {
+         color: #38afe5;
+     }
+     
+     .select-item:nth-child(2) {
+         border-right: 0;
+         border-left: 0;
+     }
+     
+     .select-item:focus {
+         background-color: #ffffff;
+     }
+     
+     .first-block-content {
+         border: 2px solid #eeedeb;
+         padding: 10px 14px;
+         font-size: 10px;
+     }
+     
+     .main-box {
+         width: 400px;
+     }
+     
+     .post-1 a {
+         color: red;
+         margin-bottom: 10px;
+     }
+     
+     .post-text {
+         margin-top: 19px;
+     }
+     
+     .post-title {
+         font-size: 16px;
+         margin-bottom: 17px;
+         color: #263555;
+     }
+     
+     .post-content {
+         display: flex;
+     }
+     
+     .button {
+         display: flex;
+         justify-content: flex-end;
+     }
+     
+     .image {
+         margin-right: 19px;
+         margin-bottom: 10px;
+     }
+     
+     .second-box-content {
+         border: 2px solid #eeedeb;
+         padding: 10px 14px;
+     }
+     
+     .second-title {
+         color: #6b7488;
+         font-family: 'Pathway Gothic One';
+         font-size: 22px;
+         padding: 8px 32px;
+         background-color: #fcfafa;
+         border: 2px solid #eeedeb;
+         border-bottom: 0;
+         text-transform: uppercase;
+         text-align: center;
+     }
+     
+     .section-tabs {
+         display: flex;
+         justify-content: space-between;
+         width: 903px;
+     }
+     
+     .second-block {
+         width: 287px;
+     }
+     
+     .first-block {
+         width: 596px;
+     }
+     
+     .links {
+         display: flex;
+         flex-direction: column;
+     }
+     
+     .content-link {
+         margin-bottom: 10px;
+         font-size: 15px;
+     }
+     
+     .content-link:first-child {
+         margin-top: 12px;
+     }
+     
+     .content-link:last-child {
+         margin-bottom: 0;
+     }
+     
+     .content-link::before {
+         content: '\003E';
+         background-color: #38afe5;
+         padding: 2px 3px;
+         color: #ffffff;
+         border-radius: 50%;
+         margin-right: 12px;
+     }
+     
+     .important-text {
+         margin-bottom: 14px;
+     }
+     
+     input {
+         margin-bottom: 12px;
+         width: 100%;
+     }
+     
+     .input-email {
+         padding: 2px 5px;
+     }
+     
+     button {
+         width: 58px;
+         padding: 2px 4px;
+         border-radius: 5px;
+         background-color: #fbf6f8;
+         border: 1px solid #b1aaaa;
+         box-shadow: 1px 1px 2px #e6e4e4;
+     }

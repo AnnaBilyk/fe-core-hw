@@ -1,0 +1,44 @@
+.tour-section {
+    display: flex;
+}
+
+.tour-card-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-content {
+    width: 20rem;
+    display: flex;
+}
+
+.details {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.price {
+    color: #38afe5;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+}
+
+.some-text {
+    font-size: 0.625rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.post-title {
+    font-size: 1rem;
+    color: #263555;
+}
+
+.tour-text {
+    margin-left: 0.625rem;
+}
+
+.tour-card {
+    margin-bottom: 0.625rem;
+}
