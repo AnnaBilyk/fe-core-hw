@@ -1,0 +1,71 @@
+.top-title {
+    margin-bottom: 3rem;
+    font-family: Pathway Gothic One;
+    color: #263555;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.title {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'Open Sans Condensed';
+    font-size: 1.875rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.gallery-item {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.aside {
+    background-color: #263555;
+    width: 50%;
+    position: absolute;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-align: center;
+    height: 100%;
+    width: 50%;
+    opacity: 0;
+    transition-duration: 1s;
+}
+
+.gallery-item:hover>.aside {
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+.article-text {
+    font-family: Arial Regular;
+    font-size: 0.625rem;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.gallery {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-gallery {
+    margin-bottom: 3.125rem;
+    width: 56.5rem;
+}
+
+.gallery-img {
+    width: 287px;
+    height: 268px;
+}
+
+.gallery-button {
+    border-radius: 3px;
+    padding: 0.062rem 0.187rem;
+    position: absolute;
+    bottom: 0.625rem;
+    right: 0.625rem;
+}
