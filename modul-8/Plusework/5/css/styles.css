@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pic {
+    display: none;
+}
+
+.one {
+    display: block;
+}
+
+@media(min-width: 480px) {
+    .pic {
+        display: none;
+    }
+    .two {
+        display: block;
+    }
+}
+
+@media(min-width: 768px) {
+    .pic {
+        display: none;
+    }
+    .three {
+        display: block;
+    }
+}
+
+@media(min-width: 1200px) {
+    .pic {
+        display: none;
+    }
+    .four {
+        display: block;
+    }
+}

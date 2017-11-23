@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.content {
+    width: 60rem;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+.block {
+    border: 1px solid black;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 0.8rem;
+}
+
+.one,
+.five {
+    width: 100%;
+    height: 2rem;
+}
+
+.two,
+.three,
+.four {
+    width: 30%;
+    height: 8rem;
+}
+
+.three,
+.four {
+    width: 22%;
+}
+
+.one {
+    background-color: yellow;
+}
+
+.two {
+    width: 52%;
+    background-color: cyan;
+}
+
+.three {
+    background-color: gray;
+}
+
+.four {
+    background-color: tomato;
+}
+
+.five {
+    margin-bottom: 0;
+    background-color: green;
+}
