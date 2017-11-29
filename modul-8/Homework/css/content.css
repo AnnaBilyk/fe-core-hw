@@ -1,0 +1,56 @@
+.gallery-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    content: url(../img/zoom-icon.png);
+    opacity: 0;
+    transition-duration: 1s;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate( -50%, -50%);
+}
+
+figure {
+    margin: 0;
+    margin-bottom: 1.875rem;
+    opacity: 1;
+}
+
+figure:nth-child(n+7) {
+    margin: 0;
+}
+
+figure:hover figcaption {
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+figure .img {
+    transition-duration: 1s;
+}
+
+figure:hover .img {
+    filter: brightness(50%);
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+.title {
+    text-transform: uppercase;
+    color: #263555;
+    margin-bottom: 3.125rem;
+    font-family: 'Pathway Gothic One';
+    font-size: 2rem;
+}
+
+.tel::before {
+    content: 'TEL:';
+}
