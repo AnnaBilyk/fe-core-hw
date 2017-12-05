@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 32px;
+    text-align: center;
+}
+
+.block-1 {
+    background-color: #FFC857;
+}
+
+.block-2 {
+    background-color: #1B998B;
+}
+
+.block-3 {
+    background-color: #711b99;
+}

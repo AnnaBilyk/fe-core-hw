@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 32px;
+    text-align: center;
+}
+
+.block-1 {
+    background-color: chartreuse;
+}
+
+.block-2 {
+    background-color: orange;
+}
+
+.block-3 {
+    background-color: red;
+}
+
+.block-4 {
+    background-color: coral;
+}
+
+.block-5 {
+    background-color: olivedrab;
+}
